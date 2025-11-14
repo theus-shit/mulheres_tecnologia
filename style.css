@@ -24,7 +24,11 @@ p {
 }
 
 .imgcentro {
-
+    width: 500px;
+    display: block;
+    margin: auto;
+    border: 5px;
+    padding: 30px;
 }
 
 nav{
