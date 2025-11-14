@@ -1,5 +1,5 @@
 body { 
-    background-color: ;
+    background-color: pink ;
 }
 
 .cabecalho{
@@ -46,4 +46,20 @@ button{
     font-size: 16px;
     color: rgb(255, 0, 132);
 
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.container img {
+    width: 200px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
 }
